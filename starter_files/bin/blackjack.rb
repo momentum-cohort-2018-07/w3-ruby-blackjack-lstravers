@@ -26,11 +26,11 @@ class Card
     if @rank == :A
       @value = 1
     elsif @rank == :K
-      @value = 13
+      @value = 10
     elsif @rank == :Q
-      @value = 12
+      @value = 10
     elsif @rank == :J
-      @value = 11
+      @value = 10
     else
       @value = @rank
     end
@@ -51,11 +51,15 @@ require 'pry-byebug'
 
 class Deck
 
+  def initialize(deck) 
+  
+  end
+
 end
 
 
-  # def cards_left
-  # end
+ #DECK = [ [ ] ] #an array of arrays
+         #an array of card objects
 
   # def draw
   # end
